@@ -3,3 +3,8 @@ def minus(a):
     return a[0] - a[1]
 print(minus(list(map(int ,input().split()))))
 #map함수는 레퍼런스에 대한 주소를 가지고 있음.
+
+#A,B = map(int,input().split())
+"""
+unpacking syntax는 시퀀스(목록, 튜플 또는 맵 개체)에서 값을 추출하여 개별 변수에 할당하는 방법이다.
+"""
